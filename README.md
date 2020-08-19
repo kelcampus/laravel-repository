@@ -55,7 +55,7 @@ Já na implementação, `BaseRepository` disponibiliza dois métodos protegidos 
 
 #### newQuery
 
-*newQuery* retorna um objeto [QueryBuilder](https://github.com/laravel/framework/blob/5.1/src/Illuminate/Database/Eloquent/Builder.php) do eloquent, à partir da propriedade `modelClass`.
+*newQuery* retorna um objeto [QueryBuilder](https://github.com/laravel/framework/blob/7.x/src/Illuminate/Database/Eloquent/Builder.php) do eloquent, à partir da propriedade `modelClass`.
 
 ```php
 protected function newQuery()
