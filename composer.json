@@ -1,0 +1,46 @@
+{
+    "name": "kelcampus/laravel-repository",
+    "description": "Cópia do pacote Artesãos Warehouse Tag 3.0.0 ajustado para o Laravel 7",
+    "keywords": [
+        "laravel7",
+        "laravel",
+        "repository",
+        "eloquent",
+        "model"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kelven Garcia Campos",
+            "email": "kelcampus@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "illuminate/database": "^7.0|^8.0",
+        "illuminate/support": "^7.0|^8.0",
+        "illuminate/pagination": "^7.0|^8.0",
+        "illuminate/contracts": "^7.0|^8.0",
+        "league/fractal": "~0.19"
+    },
+    "require-dev": {
+        "illuminate/container": "^7.0|^8.0",
+        "illuminate/http": "^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kelcampus\\LaravelRepositoy\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kelcampus\\LaravelRepositoy\\LaravelRepositoyServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "stable"
+}
