@@ -2,8 +2,10 @@
     "name": "kelcampus/laravel-repository",
     "description": "Cópia do pacote Artesãos Warehouse Tag 3.0.0 ajustado para o Laravel 7",
     "keywords": [
-        "laravel7",
         "laravel",
+        "laravel7",
+        "laravel8",
+        "laravel9",
         "repository",
         "eloquent",
         "model"
@@ -16,7 +18,7 @@
         }
     ],
     "require": {
-        "php": "^7.2",
+        "php": "^7.2|^8.0",
         "illuminate/database": "^7.0|^8.0",
         "illuminate/support": "^7.0|^8.0",
         "illuminate/pagination": "^7.0|^8.0",
