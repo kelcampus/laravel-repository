@@ -2,7 +2,7 @@
 
 Cópia do pacote https://github.com/artesaos/warehouse 
 
-Ajustado para funcionar com laravel 7.
+Ajustado para funcionar com Laravel 7, Laravel 8, Laravel 9.
 
 ## Como usar
 
